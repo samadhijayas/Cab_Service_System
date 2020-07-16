@@ -1,0 +1,73 @@
+
+body {
+    background:url('../images/bg1.png') fixed;
+   
+	font-family: 'Calibri';
+	text-align:center;
+}
+/*--header--*/
+.header{
+	margin: 2% auto;
+}
+.header h1 {
+    font-size: 3em;
+    letter-spacing: 6px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/*--main--*/
+.main {
+    margin: 2% auto;
+   	background: rgba(125, 63, 152, 0.52);
+    width: 32%;
+	font-family: 'Calibri';
+}
+.sub-head {
+    font-size: 38px;
+    padding: 42px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.sub-main{
+	position:relative;
+}
+
+
+.sub-main input[type="text"],.sub-main input[type="password"]  {
+    outline: none;
+    font-size: 1.1em;
+    margin: 4px 0px 18px 1px;
+    color: black;
+    padding: 10px 38px;
+    border: none;
+    border-radius: 2px;
+    width: 68%;
+    font-family: 'Calibri';
+}
+.sub-main input[type="submit"] {
+    color: white;
+    background: #d52685;
+    border: none;
+    padding: 14px 50px;
+    font-size: 22px;
+    border-radius: 2px;
+    margin: 17px;
+	font-family: 'Calibri';
+	cursor:pointer;
+	text-transform:uppercase;
+
+}
+.sub-main input[type="submit"]:hover {
+    background: #d9edf7;
+    color: black;
+
+}
+/*--footer--*/
+.footer  p {
+    font-size: .9em;
+    color: white;
+}
